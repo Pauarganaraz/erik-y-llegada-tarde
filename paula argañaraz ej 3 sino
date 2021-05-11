@@ -1,0 +1,25 @@
+Algoritmo ejercicio3
+	Definir erikLlegoTemprano, erikLlegoEnHora, erikLlegoTarde, HoraLlegada como entero;
+	erikLlegoTemprano = 800;
+	erikLlegoEnHora = 901;
+	erikLlegoTarde = 931;
+	Escribir "Hora  sin puntos ni espacios";
+	leer HoraLlegada;
+	Si erikLlegoTemprano Entonces
+		Escribir "bienvenido erik temprano!";
+		Si HoraLlegada Entonces
+			erikLlegoEnHora;
+			Escribir "justo a tiempo";
+		SiNo
+			erikLlegoTarde
+			escribir "tarde Erik";
+		Fin Si
+	SiNo
+		erikLlegoTarde
+	Fin Si
+	
+	
+	
+	
+	
+FinAlgoritmo
